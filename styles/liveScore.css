@@ -1,0 +1,7 @@
+#container>div{
+    border: 2px solid black;
+}
+
+#main{
+    display: flex;
+}
