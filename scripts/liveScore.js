@@ -71,7 +71,7 @@ const getData=async ()=>{
         let copy_data=data.data;
         console.log('data',data);
         if(copy_data!==null){
-            // append(copy_data);
+            append(copy_data);
         }
         
     }catch(err){
@@ -82,8 +82,7 @@ console.log('error',err);
 // getData();
 
 
-const structur=(data)=>{
-let container=document.getElementById('container');
+const append=(data,container)=>{
 container.innerHTML=null;
 data.forEach(({dateTimeGMT,name,status,venue})=>{
 let div=document.createElement('div');
@@ -91,13 +90,42 @@ let p1=document.createElement('p');
 let h5=document.createElement('p');
 let p2=document.createElement('p');
 let p3=document.createElement('p');
+let div2=document.createElement('div');
 p1.innerText=dateTimeGMT;
 h5.innerText=name;
 p2.innerText=status;
 p3.innerText=venue;
+div2.innerText='Series Home';
+div2.setAttribute('id','bottom');
 div.append(p1,h5,p2,p3);
-container.append(div);
+container.append(div,div2);
 })
 }
+let container1=document.getElementById('container1');
+let container2=document.getElementById('container2');
 
-structur(data);
+append(data,container1);
+append(data,container2);
+
+
+
+
+const append2=(data,container)=>{
+  container.innerHTML=null;
+  data.forEach(({dateTimeGMT,name,status,venue})=>{
+  let div=document.createElement('div');
+  let p1=document.createElement('p');
+  let h5=document.createElement('p');
+  let p2=document.createElement('p');
+  let p3=document.createElement('p');
+  
+  p1.innerText=dateTimeGMT;
+  h5.innerText=name;
+  p2.innerText=status;
+  p3.innerText=venue;
+  div.append(p1,h5,p2,p3);
+  container.append(div);
+  })
+  }
+  let news=document.getElementById('news');
+  append2(data,news);
