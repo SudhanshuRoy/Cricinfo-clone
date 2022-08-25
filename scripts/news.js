@@ -102,7 +102,7 @@ let newsappendfn = () => {
         image.style.height='160px';
 
         let subdiv=document.createElement("div");
-        subdiv.setAttribute('class',"subnewsbox");
+        // subdiv.setAttribute('class',"subnewsbox1");   
 
         let title=document.createElement("h1");
         title.innerText=el.title;
@@ -115,7 +115,7 @@ let newsappendfn = () => {
         author.innerText=el.author;
 
         let div=document.createElement("div");
-        div.setAttribute('class',"newsbox");
+        // div.setAttribute('class',"newsbox");
 
         subdiv.append(title,summary,author);
         div.append(image,subdiv);
@@ -132,7 +132,8 @@ let newsappendfn = () => {
         image.style.height='63px';
 
         let subdiv=document.createElement("div");
-        subdiv.setAttribute('class',"subnewsbox");
+        subdiv.style.paddingLeft="15px";
+        // subdiv.setAttribute('class',"subnewsbox2");
 
         let title=document.createElement("h1");
         title.innerText=el.title;
@@ -144,7 +145,7 @@ let newsappendfn = () => {
         author.style.fontSize='10px';
 
         let div=document.createElement("div");
-        div.setAttribute('class',"newsbox2");
+        // div.setAttribute('class',"newsbox2");
         div.style.width="268px";
         div.style.height='auto';
         div.style.padding="8px 16px";
@@ -159,28 +160,3 @@ let newsappendfn = () => {
 
 newsappendfn();
 
-// let image=document.createElement("img");
-// image.src=el.image;
-// image.style.width="85px";
-// image.style.height='60px';
-
-// let subdiv=document.createElement("div");
-// subdiv.setAttribute('class',"subnewsbox");
-
-// let title=document.createElement("h1");
-// title.innerText=el.title;
-// title.style.fontSize="16px";
-
-// let summary=document.createElement("p");
-// summary.innerText=el.summary;
-
-// let author=document.createElement("p");
-// author.innerText=el.author;
-
-// let div=document.createElement("div");
-// div.setAttribute('class',"newsbox");
-
-// subdiv.append(title,summary,author);
-// div.append(image,subdiv);
-
-// newsDiv1.append(div);
