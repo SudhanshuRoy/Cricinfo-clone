@@ -138,3 +138,100 @@ let appendMatch=(data)=>{
 }
 
 showMatch("Asian");
+
+// middle section
+let middleArray=[
+    {
+        url:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/315100/315101.6.jpg",
+        title:"Posers for India: The same old top three? Pant or Karthik, or both?"
+    },
+    {
+        url:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/344700/344708.6.jpg",
+        title:"Wounded England unlikely to change aggressive approach"
+    },
+    {
+        url:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/334200/334283.6.jpg",
+        title:"Kuldeep, Prasidh part of India A squad to face NZ A"
+    },
+    {
+        url:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/341900/341947.6.jpg",
+        title:"Gill set for maiden county stint with Glamorgan"
+    },
+    {
+        url:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/294100/294114.6.jpg",
+        title:"The Pakistan women's team in 1997: the girls who believed they could"
+    },
+    {
+        url:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/315100/315101.6.jpg",
+        title:"Posers for India: The same old top three? Pant or Karthik, or both?"
+    },
+    {
+        url:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/342800/342831.6.jpg",
+        title:"Two factors that might have played a role in Kohli's slump"
+    },
+    {
+        url:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/340200/340208.6.jpg",
+        title:"Trent Boult hoping he's not done with Test cricket just yet"
+    },
+    {
+        url:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/344700/344726.6.jpg",
+        title:"Welsh find unwanted consistency amid relentless record blitz"
+    },
+    {
+        url:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/315100/315101.6.jpg",
+        title:"Lynn signs 11-game Strikers deal to split time with ILT20"
+    },
+]
+
+let container=document.getElementById("container");
+let showContain=(data)=>{
+    for(let i=0; i<3; i++){
+        let div=document.createElement("div");
+        let img=document.createElement("img");
+        img.src=data[i].url;
+        let h1=document.createElement("h1");
+        h1.innerText=data[i].title;
+        div.append(img,h1);
+        container.append(div);
+    }
+
+    let contain=document.createElement("div");
+    contain.setAttribute("class","contain")
+    for(let i=3; i<6; i++)
+    {
+        let div=document.createElement("div");
+        let img=document.createElement("img");
+        img.src=data[i].url;
+        let p=document.createElement("p");
+        p.innerText=data[i].title;
+        div.append(img,p);
+        contain.append(div);
+    }
+    container.append(contain);
+
+    for(let i=6; i<9; i++){
+        let div=document.createElement("div");
+        let img=document.createElement("img");
+        img.src=data[i].url;
+        let h1=document.createElement("h1");
+        h1.innerText=data[i].title;
+        div.append(img,h1);
+        container.append(div);
+    }
+
+    contain=document.createElement("div");
+    contain.setAttribute("class","contain")
+    for(let i=9; i<10; i++)
+    {
+        let div=document.createElement("div");
+        let img=document.createElement("img");
+        img.src=data[i].url;
+        let p=document.createElement("p");
+        p.innerText=data[i].title;
+        div.append(img,p);
+        contain.append(div);
+    }
+    container.append(contain);
+
+}
+showContain(middleArray)

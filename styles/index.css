@@ -72,6 +72,82 @@ navbar>img
     width: 13%;
 }
 
+/* middle section */
+#middle
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-gap: 20px;
+}
+#middle>div
+{
+    border: 2px rgba(128, 128, 128, 0.138) solid;
+    background-color: #F9F9FB;
+    border-radius: 10px;
+    padding: 10px;
+}
+#middle>div>div
+{
+    margin: 10px 0px;
+    border-bottom: 2px rgba(128, 128, 128, 0.138) solid;
+    padding: 10px 0px;
+}
+#middle img
+{
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.7s;  
+    cursor: pointer;
+}
+#middle img:hover
+{
+    transform: scale(1.1); 
+}
+#middle h1
+{
+    padding: 10px 0px 0px 0px;
+}
+
+/* sidebar */
+#sidebar
+{
+    height: 700px;
+}
+#sidebar>div>h4
+{
+    border-bottom:1px rgba(128, 128, 128, 0.138) solid;
+    padding: 0px 0px 10px 0px;
+}
+#sidebar>div>a
+{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #566065;
+    font-size: 15px;
+}
+#sidebar>div>a>span
+{
+    color: #03A9F4;
+    font-weight: bold;
+}
+
+/* container */
+#container>.contain
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+#container>.contain p
+{
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 5px;
+}
 /* footer */
 footer
 {
@@ -120,5 +196,13 @@ footer>div>a:first-child{
     footer>div>hr
     {
         width: 100%;
+    }
+    #sidebar
+    {
+        display: none;
+    }
+    #middle
+    {
+        grid-template-columns: repeat(1,1fr); 
     }
 }
