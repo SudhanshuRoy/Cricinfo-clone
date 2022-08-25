@@ -1,0 +1,38 @@
+body{
+    background-color: #f9f9fb;
+    font-family: sans-serif;
+}
+
+.team_box{
+    width: 1210px;
+    height: auto;
+    margin: auto;
+    border: 1px solid #e8e3e3;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.team_box > h4{
+    border: 1px solid #e8e3e3;
+    margin: 0px;
+    padding: 10px 5px;
+    /* border */
+    border-top: none;
+}
+#teams1 , #teams2 , #teams3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.boxes{
+    display: flex;
+    border: 1px solid #efefef;
+    padding: 17px 26px;
+}
+.boxes > img{
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+}
+.boxes > h4{
+    color:  #48494a;
+    margin-top: 14px;
+}
