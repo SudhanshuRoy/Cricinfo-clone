@@ -3,68 +3,55 @@
 <head>
     <title>Document</title>
     <style>
-        .news{
-            margin: auto;
-            /* border:1px solid red; */
-        }
         #newstop{
             display: flex;
-            width: 60%;
-            /* border: 10px solid green; */
             margin: auto;
+            margin-top: 30px;
         }
         #newsDiv{
-            display: flex;
-            flex-wrap: wrap;
-            /* grid-template-columns: 904px 300px;
-            column-gap: 20px; */
-            /* border: 5px solid red; */
-            justify-content: space-around;
-            /* letter-spacing: 1px; */
-            word-spacing: 3px;
+            /* border: 20px solid yellow; */
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: 900px 300px;
+            justify-content: center;
+            gap:20px;
+            margin: auto;
+            color: #2b2c2d;
+            /* letter-spacing: 0.4px; */
+            /* word-spacing: 3.5px; */
+        }
+        .news{
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+            /* border: 2px solid green; */
             margin: auto;
             margin-top: 50px;
-            /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+            border-radius: 10px;
         }
-        .newsbox{
+        .news > div{
             display: flex;
-            flex-wrap: wrap;
-            /* border: 10px solid black; */
-            height: 163px;
-            width: 872px;
-            padding: 16px;
-            gap:15px;
-            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-        }
-        .newsbox2{
-            display: flex;
-            height: 163px;
-            /* width: 872px; */
-            width: 80%;
-            gap:15px;
-            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-        }
-        .subnewsbox{
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
             /* border: 1px solid red; */
-            width: 571px;
         }
-        #newsDiv2{
-            margin-top: 0px;
-            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-            /* border: 1px solid blue; */
+        .news > div > div{
+            /* border: 2px solid blue; */
+            width: 100%;
         }
-        #newsDiv2 > div{
-            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        #newsDiv1 > div{
+            display: grid;
+            grid-template-columns: 285px 570px;
+            gap: 15px;
+            padding: 16px;
+            /* border: 10px solid black;   */
         }
     </style>
 </head>
 <body>
     <img id="newstop" src="https://tpc.googlesyndication.com/simgad/10926761020657163993?" alt="banner">
-    <div id="newsDiv" class="news">
+    <div id="newsDiv">
         <div id="newsDiv1" class="news">
             <h1 style="padding-left: 16px;">Latest News</h1>
         </div>
-        <div id="newsDiv2" class="news">
+        <div id="newsDiv2"  class="news">
             <h1 style="font-size: 16px; padding-left: 16px;">Most Read</h>
         </div>
     </div>
