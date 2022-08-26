@@ -6,7 +6,7 @@ let newsarr=[
         title:"Out-of-favour Agarwal is 'ticking all those boxes' to give white-ball future a thrust",
         summary:"I will be very happy with whatever comes my way, but the aspirations and dreams never die",
         author:"1 hr ago•Afzal Jiwani"
-    },
+    },  
     {
         image:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_480,q_50/lsci/db/PICTURES/CMS/344600/344699.10.jpg",
         title:"Pakistan Women head coach David Hemp won't extend his contract in October",
@@ -93,16 +93,87 @@ let newsarr=[
     }
 ];
 
-let newsappendfn = () => {
+let newstecharr=[
+    {
+        image:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/342700/342741.jpg",
+        title:"Captains should be suspended if their teams can't bowl 90 overs a day",
+        summary:"Over rates are a massive problem in the game, even after all these years. And so are issues with the DRS",
+        author:"17-Jul-2022•Ian Chappell"
+    },
+    {
+        image:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/325600/325650.6.jpg",
+        title:"Looks fast, feels faster - why the speed gun is only part of the story",
+        summary:"Data on release points and trajectory are helping to break down the mysteries of why some bowlers are harder to face than others",
+        author:"05-Dec-2021•Cameron Ponsonby"
+    },
+    {
+        image:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/311600/311687.6.jpg",
+        title:"Seven ways to improve T20, starring high-res cameras, shared meals, and more",
+        summary:"The format is evolving, but not fast enough in some areas",
+        author:"06-Nov-2020•Jarrod Kimber"
+    },
+    {
+        image:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/306300/306391.6.jpg",
+        title:"Tech it and go",
+        summary:"Cricket is back in our lives and on our screens and we have a century of technological innovations to thank for it",
+        author:"21-Jul-2020•Deepti Unni"
+    },
+    {
+        image:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/273800/273884.6.jpg",
+        title:"Turning up the stump mics isn't the way to deal with sledging",
+        summary:"The ICC says it will help viewers feel part of the action, but they are actually trying to tackle verbal abuse - which needs to be dealt with in other ways",
+        author:"03-Mar-2019•Ian Chappell"
+    },
+    {
+        image:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/277000/277066.6.jpg",
+        title:"The high-tech game",
+        summary:"Technology influences various aspects of cricket today, and that is only set to increase in the years ahead",
+        author:"06-Jun-2018•Tim Wigmore"
+    },
+    {
+        image:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/272300/272367.6.jpg",
+        title:"Why Steven Smith wasn't given the benefit of doubt in Sydney",
+        summary:"Technology, despite all its advantages, can't provide the three-dimensional view that umpires have",
+        author:"22-Jan-2018•Mark Nicholas"
+    },
+    {
+        image:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/266900/266963.4.jpg",
+        title:"Ready, headset, go!",
+        summary:"Facing virtual deliveries could soon become part of players' training and acclimatisation routines",
+        author:"21-Aug-2017•Richard Asher"
+    },
+    {
+        image:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/263100/263116.4.jpg",
+        title:"The art of the review",
+        summary:"All teams use the DRS, but some teams (and players) use it better than others",
+        author:"01-Jun-2017•Charles Davis"
+    },
+    {
+        image:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/258500/258549.jpg",
+        title:"An arm sleeve that tells you if you're chucking",
+        summary:"A team of Pakistani engineers has developed a wearable piece of technology that measures elbow flex in bowlers in real time",
+        author:"30-Jan-2017•Ahmer Naqvi"
+    },
+    {
+        image:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/255000/255034.3.jpg",
+        title:"Margins, morality, and the many collapses of 2016",
+        summary:"A look at the top cricket trends of the year: slippery Test batting, Bangladesh's assertiveness, umpire calls, ball-tampering, and a captain called Kohli",
+        author:"02-Jan-2017•Sambit Bal"
+    }
+];
+
+let newsappendfn = (data,a,b) => { 
     let newsDiv1=document.getElementById("newsDiv1");
-    newsarr.forEach( (el) => {
+    let newshead1=document.getElementById("newshead1");
+    newshead1.innerText=a;
+    let newshead2=document.getElementById("newshead2");
+    newshead2.innerText=b;
+
+        data.forEach( (el) => {
         let image=document.createElement("img");
         image.src=el.image;
-        image.style.width="285px";
-        image.style.height='160px';
 
         let subdiv=document.createElement("div");
-        // subdiv.setAttribute('class',"subnewsbox1");   
 
         let title=document.createElement("h1");
         title.innerText=el.title;
@@ -115,7 +186,6 @@ let newsappendfn = () => {
         author.innerText=el.author;
 
         let div=document.createElement("div");
-        // div.setAttribute('class',"newsbox");
 
         subdiv.append(title,summary,author);
         div.append(image,subdiv);
@@ -124,29 +194,41 @@ let newsappendfn = () => {
     });
 
     let newsDiv2=document.getElementById("newsDiv2");
-    for(let i=newsarr.length-2;i>=0;i--){
-        let el=newsarr[i];
+    for(let i=data.length-1;i>=0;i--){
+        let el;
+        if(i==9){
+            let image=document.createElement("img");
+            image.src="https://tpc.googlesyndication.com/simgad/15693210795370267328?";
+            image.style.width="300px";
+
+            image.style.display='flex';
+            image.style.margin='auto';
+            image.style.marginTop="20px";
+            image.style.marginBottom='20px';
+            newsDiv2.append(image)
+            continue;
+            
+        }else{
+            el=data[i];
+        }
+        
         let image=document.createElement("img");
         image.src=el.image;
-        image.style.width="63px";
+        image.style.width="66px";
         image.style.height='63px';
+        image.style.borderRadius="10%";  
 
         let subdiv=document.createElement("div");
-        subdiv.style.paddingLeft="15px";
-        // subdiv.setAttribute('class',"subnewsbox2");
 
         let title=document.createElement("h1");
         title.innerText=el.title;
-        title.style.fontSize="14px";
+        title.style.fontSize="15px";
         title.style.color='#2b2c2d';
 
         let author=document.createElement("p");
         author.innerText=el.author;
-        author.style.fontSize='10px';
 
         let div=document.createElement("div");
-        // div.setAttribute('class',"newsbox2");
-        div.style.width="268px";
         div.style.height='auto';
         div.style.padding="8px 16px";
 
@@ -158,5 +240,5 @@ let newsappendfn = () => {
 
 }
 
-newsappendfn();
-
+// newsappendfn(newsarr,"Latest News","Most Read");
+newsappendfn(newstecharr,"Technology in cricket","Most Read");
