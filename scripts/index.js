@@ -2,90 +2,90 @@
 let matches=[
     {
         cup:"Asian",
-        f_team_name:"kuwati",
+        f_team_name:"KUWATI",
         f_team_flag:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313158.logo.png",
-        s_team_name:"Singapore",
+        s_team_name:"SINGAPORE",
         s_team_flag:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313144.logo.png",
         location:"Banglore",
         time:"Today,5:30pm"
     },
     {
         cup:"Asian",
-        f_team_name:"kuwati",
+        f_team_name:"SA",
         f_team_flag:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/343800/343852.png",
-        s_team_name:"Singapore",
+        s_team_name:"ENG",
         s_team_flag:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/343800/343854.png",
         location:"Banglore",
         time:"Today,5:30pm"
     },
     {
         cup:"Maharaja",
-        f_team_name:"kuwati",
+        f_team_name:"TR-M",
         f_team_flag:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/343800/343858.png",
-        s_team_name:"Singapore",
+        s_team_name:"SB-M",
         s_team_flag:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313496.logo.png",
         location:"Banglore",
         time:"Today,5:30pm"
     },
     {
         cup:"Maharaja",
-        f_team_name:"kuwati",
+        f_team_name:"TKR",
         f_team_flag:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/325900/325974.png",
-        s_team_name:"Singapore",
+        s_team_name:"BR",
         s_team_flag:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313485.logo.png",
         location:"Banglore",
         time:"Today,5:30pm"
     },
     {
         cup:"Maharaja",
-        f_team_name:"kuwati",
+        f_team_name:"TKR-W",
         f_team_flag:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317100/317119.png",
-        s_team_name:"Singapore",
+        s_team_name:"BR-W",
         s_team_flag:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317100/317110.jpg",
         location:"Banglore",
         time:"Today,5:30pm"
     },
     {
         cup:"Men",
-        f_team_name:"kuwati",
+        f_team_name:"JT",
         f_team_flag:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313158.logo.png",
-        s_team_name:"Singapore",
+        s_team_name:"STKMP",
         s_team_flag:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313144.logo.png",
         location:"Banglore",
         time:"Today,5:30pm"
     },
     {
         cup:"Men",
-        f_team_name:"kuwati",
+        f_team_name:"MYSW",
         f_team_flag:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313136.logo.png",
-        s_team_name:"Singapore",
+        s_team_name:"GM",
         s_team_flag:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/156800/156800.png",
         location:"Banglore",
         time:"Today,5:30pm"
     },
     {
         cup:"Women",
-        f_team_name:"kuwati",
+        f_team_name:"GAW",
         f_team_flag:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317100/317118.png",
-        s_team_name:"Singapore",
+        s_team_name:"SLK",
         s_team_flag:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313144.logo.png",
         location:"Banglore",
         time:"Today,5:30pm"
     },
     {
         cup:"Women",
-        f_team_name:"kuwati",
+        f_team_name:"LAN",
         f_team_flag:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317100/317111.png",
-        s_team_name:"Singapore",
+        s_team_name:"NOT",
         s_team_flag:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317100/317111.png",
         location:"Banglore",
         time:"Today,5:30pm"
     },
     {
         cup:"Asian",
-        f_team_name:"kuwati",
+        f_team_name:"KUWATI",
         f_team_flag:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313140.logo.png",
-        s_team_name:"Singapore",
+        s_team_name:"SINGAPORE",
         s_team_flag:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313147.logo.png",
         location:"Banglore",
         time:"Today,5:30pm"
@@ -136,7 +136,6 @@ let appendMatch=(data)=>{
         match.append(mainDiv);
     })
 }
-
 showMatch("Asian");
 
 // middle section
@@ -235,3 +234,140 @@ let showContain=(data)=>{
 
 }
 showContain(middleArray)
+
+// sidebar section
+let series=document.getElementById("series");
+let showSeries=(data)=>{
+    // console.log(data)
+    data.forEach((ele)=>{
+        let a=document.createElement("a");
+        let span=document.createElement("span");
+        span.innerText="> ";
+        a.append(span,ele.f_team_name," vs ",ele.s_team_name);
+        a.onclick=function(){
+            showPopup(ele);
+        };
+        series.append(a);
+    })
+}
+showSeries(matches);
+
+// news section
+let newsData= [
+    {
+        img : "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/294000/294030.jpg" ,
+        title : "On This Day: Stokes' Headingley epic"
+    } ,
+    {
+        img : "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/344600/344603.png" ,
+        title : "Quote Unquote: who's saying what?"
+    } ,
+    {
+        img : "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/342200/342284.6.jpg" ,
+        title : "Photo feature: helmets"
+    } ,
+    {
+        img : "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/344500/344554.6.jpg" ,
+        title : "The latest cricket photos"
+    } ,
+    {
+        img : "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/151100/151163.3.jpg" ,
+        title : "The 'real value' of wickets: can anyone match McGrath?"
+    } ,
+    {
+        img : "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/336000/336034.6.jpg" ,
+        title : "Who does it best in women's cricket?"
+    } ,
+    {
+        img : "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/340500/340544.6.jpg" ,
+        title : "Photo feature: Stairs in cricket"
+    } ,
+    {
+        img : "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/318700/318789.jpg" ,
+        title : "Records index: most runs, most wickets, and a lot more"
+    } ,
+    {
+        img : "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/340200/340228.6.jpg" ,
+        title : "Temba Bavuma: 'I understand I have the influence to make things better around me'"
+    } ,
+    {
+        img : "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/339900/339937.6.jpg" ,
+        title : "Rankings: Who's leading in every format"
+    } 
+]
+let news=document.getElementById("news");
+let showNews=(data)=>{
+    // console.log(data);
+    data.forEach((ele)=>{
+        let div=document.createElement("div");
+        let img=document.createElement("img");
+        img.src=ele.img;
+        let p=document.createElement("p");
+        p.innerText=ele.title;
+        div.append(img,p);
+        news.append(div)
+    })
+}
+showNews(newsData)
+
+// popup section
+let popup=document.getElementById("popup"); 
+function showPopup(data){
+    // console.log(data)
+    popup.innerHTML=null;
+    let module=document.createElement("div");
+    module.setAttribute("id","module")
+
+    // close
+    let c=document.createElement("span");
+    c.innerText="❌";
+    c.setAttribute("class","close");
+    
+    // div1
+    let div1=document.createElement("div");
+    div1.innerText=data.time+" : "+data.cup+" : "+data.location;
+
+    // div2
+    let div2=document.createElement("div");
+    // span1
+    let span1=document.createElement("span");
+    let img1=document.createElement("img");
+    img1.src=data.f_team_flag;
+    let p1=document.createElement("p");
+    p1.innerText=data.f_team_name;
+    span1.append(img1,p1);
+    // h1
+    let h1=document.createElement("h1");
+    h1.innerText="Vs";
+    // span2
+    let span2=document.createElement("span");
+    let img2=document.createElement("img");
+    img2.src=data.s_team_flag;
+    let p2=document.createElement("p");
+    p2.innerText=data.s_team_name;
+    span2.append(img2,p2);
+    div2.append(span1,h1,span2);
+
+    // div3
+    let div3=document.createElement("div");
+    let span3a=document.createElement("span");
+    span3a.innerText="Schedule"
+    let span3b=document.createElement("span");
+    span3b.innerText="Table";
+    div3.append(span3a,span3b);
+
+    module.append(c,div1,div2,div3)
+    popup.append(module)
+
+    // close
+    let close = document.querySelector(".close");
+    popup.style.display = "block";
+    close.onclick = function() {
+        popup.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == popup) {
+        popup.style.display = "none";
+        }
+    }
+}
