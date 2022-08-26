@@ -1,31 +1,24 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Document</title>
     <style>
-        #newstop{
+        #featuretop{
             display: flex;
             margin: auto;
             width:70%;
             margin-top: 30px;
         }
-        #newsDiv{
-            /* border: 20px solid yellow; */
+        #featureDiv{
             margin-top: 50px;
             display: grid;
-            grid-template-columns: 60% 22%;
             justify-content: center;
-            gap:20px;
             margin: auto;
             color: #2b2c2d;
             padding-left: 16px;
-            /* letter-spacing: 0.4px; */
-            /* word-spacing: 3.5px; */
         }
-        .news{
+        .feature{
             box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
-            /* border: 2px solid green; */
             margin: auto;
             margin-top: 50px;
             border-radius: 10px;
@@ -33,68 +26,60 @@
         .feature > div{
             display: flex;
             box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
-            /* border: 1px solid red; */
         }
-        .news > div > div{
-            /* border: 2px solid blue; */
+        .feature > div > div{
             width: 100%;
         }
-        #newsDiv1 > div{
+        #featureDiv1 > div{
             display: grid;
             grid-template-columns: 30% 70%;
             gap: 20px;
             padding: 16px;
-            /* border: 10px solid black; */
         }
-        #newsDiv2 > div{
+        #featureDiv2 > div{
             display: grid;
             grid-template-columns: 30% 70%;
             align-items: center;
             gap: 10px;
             /* border: 10px solid black; */
         }
-        #newsDiv img:hover{
+        #featureDiv img:hover{
             transform: scale(1.06); 
         }
-        #newsDiv1 img{
+        #featureDiv1 img{
             width: 100%;
             height: 160px;
             border-radius: 16px;
         }
 
-        #newsDiv2 > div > div{
+        #featureDiv2 > div > div{
             font-size: 12px;
         }
         
 
         @media all  and (min-width:250px) and (max-width:1000px){
-            #newsDiv{
+            #featureDiv{
                 display: grid;
                 grid-template-columns: 1fr;
             }
-            #newsDiv2 > div{
+            #featureDiv2 > div{
                 grid-template-columns: 66px 1fr;
                 gap:16px;
                 font-size: 18px;
             }
-            #newsDiv2 > div > div{
+            #featureDiv2 > div > div{
             font-size: 16px;
         }
         }
     </style>
 </head>   
 <body>
-    <img id="newstop" src="https://tpc.googlesyndication.com/simgad/10926761020657163993?" alt="banner">
-    <div id="newsDiv">
-        <div id="newsDiv1" class="news">
-            <h1 style="padding-left: 16px;" id="newshead1"></h1>
-        </div>
-        <div id="newsDiv2"  class="news">
-            <h1 style="padding-left: 16px;" id="newshead2" ></h>
-        </div>
+    <img id="featuretop" src="https://tpc.googlesyndication.com/simgad/16233217720762028300?" alt="banner">
+    <div id="featureDiv">
+        
     </div>
 </body>
 </html>
-<script src='scripts/news.js'></script>
+<script src='scripts/features.js'></script>
 
 <!-- hover -->
