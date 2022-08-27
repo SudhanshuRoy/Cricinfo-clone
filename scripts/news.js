@@ -164,12 +164,23 @@ let newstecharr=[
 
 let newsappendfn = (data,a,b) => { 
     let newsDiv1=document.getElementById("newsDiv1");
-    let newshead1=document.getElementById("newshead1");
-    newshead1.innerText=a;
-    let newshead2=document.getElementById("newshead2");
-    newshead2.innerText=b;
+    newsDiv1.innerHTML=null;
+    let newsDiv2=document.getElementById("newsDiv2");
+    newsDiv2.innerHTML=null;
 
-        data.forEach( (el) => {
+    let h1=document.createElement("h1");
+    h1.style.paddingLeft="16px";
+    h1.setAttribute("id","newshead1")
+    h1.innerText=a;
+    newsDiv1.append(h1);
+
+    let h2=document.createElement("h3");
+    h2.style.paddingLeft="16px";
+    h2.setAttribute("id","newshead2")
+    h2.innerText=b;
+    newsDiv2.append(h2);
+
+    data.forEach( (el) => {
         let image=document.createElement("img");
         image.src=el.image;
 
@@ -193,7 +204,6 @@ let newsappendfn = (data,a,b) => {
         newsDiv1.append(div);
     });
 
-    let newsDiv2=document.getElementById("newsDiv2");
     for(let i=data.length-1;i>=0;i--){
         let el;
         if(i==9){
@@ -239,6 +249,18 @@ let newsappendfn = (data,a,b) => {
     };
 
 }
+newsappendfn(newsarr,"Latest News","Most Read");
 
+
+
+// ######################  user manual #####################
+
+// 1
+// news ==> news home
+// call this function:-
 // newsappendfn(newsarr,"Latest News","Most Read");
-newsappendfn(newstecharr,"Technology in cricket","Most Read");
+
+// 2 
+// news ==> Technology in cricket
+// call this function:-
+// newsappendfn(newstecharr,"Technology in cricket","Most Read");
