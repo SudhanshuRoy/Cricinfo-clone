@@ -253,10 +253,6 @@ let featureappendfn = (data,a,b) => {
     featureDiv.append(featureDiv1,featureDiv2);
 }
 
-featureappendfn(featurearr,"Features","Most Read");
-
-
-
 // 2
 //  features ==> gallery section 
 let fgalleryfn = (data) => {
@@ -291,15 +287,23 @@ let fgalleryfn = (data) => {
 }
 
 // fgalleryfn(fgallery);
+featureappendfn(featurearr,"Features","Most Read");
 
 
 
+
+
+// ######################  user manual #####################
+
+// 1
 // features ==> features home
-// to call this
+// call this function:-
 // featureappendfn(featurearr,"Features","Most Read");
 
+
+// 2
 // features ==> photo galleries
-// to call this 
+// call this function:-
 // fgalleryfn(fgallery);
 
 
