@@ -57,6 +57,22 @@ let int_teams = [
     } 
 ]
 
+let team1 = document.querySelector('#teams1')
+int_teams.forEach(function(elem){
+    
+
+    let div = document.createElement('div');
+    div.setAttribute("class" , "boxes")
+    let img = document.createElement('img');
+    img.src = elem['img']
+    let name = document.createElement('h4');
+    name.innerText = elem['name']
+    div.append(img , name)
+
+    team1.append(div);
+
+})
+
 let womens_team = [
     {
         img : "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313200/313225.logo.png" ,
@@ -99,6 +115,22 @@ let womens_team = [
         name : "West Indies Women"
     } ,
 ]
+
+let team2 = document.querySelector('#teams2')
+womens_team.forEach(function(elem){
+    
+
+    let div = document.createElement('div');
+    div.setAttribute("class" , "boxes")
+    let img = document.createElement('img');
+    img.src = elem['img']
+    let name = document.createElement('h4');
+    name.innerText = elem['name']
+    div.append(img , name)
+
+    team2.append(div);
+
+})
 
 let ipl = 
 [
@@ -143,3 +175,21 @@ let ipl =
         name : "Sunrisers Hyderabad"
     } ,
 ]
+
+let team3 = document.querySelector('#teams3')
+ipl.forEach(function(elem){
+    
+
+    let div = document.createElement('div');
+    div.setAttribute("class" , "boxes")
+    let img = document.createElement('img');
+    img.src = elem['img']
+    let name = document.createElement('h4');
+    name.innerText = elem['name']
+    div.append(img , name)
+
+    team3.append(div);
+
+})
+
+

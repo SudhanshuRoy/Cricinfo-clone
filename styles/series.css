@@ -10,7 +10,7 @@ body{
     background-color: #eeeeee;
     width: 100%;
     height: auto;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
 }
 #data{
     width: 84%;
@@ -27,7 +27,6 @@ body{
     display: flex;
     margin: auto;
     justify-content: space-between;
-    /* background-color: white; */
 }
 #names{
     width: 71%;
@@ -38,8 +37,6 @@ body{
 }
 #scroll{
     width: 24%;
-    border: 1px solid red;
-    background-color: white;
 }
 #names1{
     width: 50%;
@@ -66,8 +63,127 @@ h4{
     font-size: 15px;
     margin: 13px;
 }
+h4,h2:hover{
+    cursor: pointer;
+}
 h2{
     line-height: 24px;
     font-size: 16px;
     margin-left: 10px;
 }
+
+#scroll01{
+    margin-top: 30px;
+}
+.scrollclass{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 15px 10px;
+    border: 1px solid rgb(213, 212, 212);
+    border-radius: 15px;
+    margin-bottom: 25px;
+    background-color: white;
+}
+.scrollclass:hover{
+    cursor: pointer;
+    background-color: rgb(249, 242, 242);
+}
+.scrollclass > img{
+    width: 270px;
+    height: 150px;
+    border-radius: 10px;
+}
+.scrollclass > img:hover{
+    width: 272px;
+    height: 152px;
+}
+.scrollclass > p{
+    font-size: 14px;
+    margin: 0px;
+    padding: 5px 0px;
+    font-weight: bold;
+}
+
+#seriesfoot{
+    width: 84%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sf1{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.sf1 > h6{
+    color:  #48494a;
+    padding:0px 10px;
+    border-right: 1px solid grey;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+.sf1 > h6:hover{
+    color: rgb(177, 176, 176);
+    cursor: pointer;
+}
+#seriesftwo > img{
+    margin-top: 20px;
+    width: 300px;
+}
+#seriesftwo > p{
+    font-size: 12px;
+    font-weight: lighter;
+    margin-left: 180px;
+}
+@media all and (min-width : 1100px) and (max-width : 1500px){
+    .scrollclass > img{
+        width: 80%;
+        height: 80%;
+    }
+    .scrollclass > img:hover{
+        width: 80%;
+        height: 80%;
+    }
+    .scrollclass > p{
+        font-size: 12px;
+    }
+}
+@media all and (max-width: 1100px){
+    #scroll{
+        display: none;
+    }
+    #seriesftwo{
+        display: none;
+    }
+}
+@media all and (max-width:850px){
+    #names{
+        display: block;
+    }
+    #scroll{
+        display: none;
+    }
+    #names2{
+        border: none;
+        padding: 0px;
+    }
+    #series_name>div{
+        font-size: 14px;
+    }
+    #heading{
+        margin-left: 65px;
+    }
+    #current{
+        margin-left: 30px;
+    }
+    #seriesftwo{
+        display: none;
+    }
+    .sf1 > h6{
+        padding: 0px 5px;
+    }
+
+}
+
