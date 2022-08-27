@@ -2,11 +2,13 @@ function navbar() {
   return ` 
             <img src="https://wassets.hscicdn.com/static/images/logo.png">
                 <div>
-                    <a href="">Live Score</a>
-                    <a href="">Series</a>
-                    <a href="">Teams</a>
-                    <a href="">News</a>
-                    <a href="">Features</a>
+                    <a href="index.html">Home</a>
+                    <a href="liveScore.html">Live Score</a>
+                    <a href="series.html">Series</a>
+                    <a href="teams.html">Teams</a>
+                    <a href="news.html">News</a>
+                    <a href="features.html">Features</a>
+                    <a href="upcomming.html">Upcoming</a>
                 </div>
             <i class="fa fa-bell" id="bell" style="font-size:25px;color:white; cursor:pointer";></i>
         `;

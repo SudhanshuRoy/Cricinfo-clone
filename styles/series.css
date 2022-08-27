@@ -2,6 +2,7 @@ body{
     font-family: sans-serif;
 }
 #heading{
+    padding: 10px;
     margin-left: 125px;
     font-weight: bold;
 }
