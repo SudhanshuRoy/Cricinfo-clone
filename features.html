@@ -72,14 +72,41 @@
         }
         }
     </style>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>   
 <body>
+       <!--=== navbar ===-->
+       <navbar>
+    </navbar>
+
     <img id="featuretop" src="https://tpc.googlesyndication.com/simgad/16233217720762028300?" alt="banner">
     <div id="featureDiv">
         
     </div>
+    
+    <!--=== footer ===-->
+	<footer>
+	</footer>
 </body>
 </html>
+<script type="module">
+    import {navbar,footer} from "./scripts/top-bottom.js";
+
+    // navbar 
+        let nav=document.querySelector("navbar");
+        nav.innerHTML=navbar();
+
+    // footer 
+        let foot=document.querySelector("footer");
+        foot.innerHTML=footer();
+    
+        let bell=document.getElementById("bell")
+        bell.addEventListener('click',function(){
+            alert("Notification Enable Successful")
+                bell.style.color="yellow";
+        })
+</script>
 <script src='scripts/features.js'></script>
 
 <!-- hover -->
