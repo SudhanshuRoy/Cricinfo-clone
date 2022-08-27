@@ -8,7 +8,7 @@ function navbar() {
                     <a href="">News</a>
                     <a href="">Features</a>
                 </div>
-            <i class="fa fa-bell" style="font-size:25px;color:white"></i>
+            <i class="fa fa-bell" id="bell" style="font-size:25px;color:white; cursor:pointer";></i>
         `;
 }
 

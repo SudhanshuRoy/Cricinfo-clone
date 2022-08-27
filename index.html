@@ -59,27 +59,7 @@
     </section>
 
     <!--=== popup box ===-->
-    <section id="popup">
-        <!-- <div id="module">
-            <span class="close">&times;</span>
-            <div>Today,5:30pm : Asia :Banglore</div>
-            <div>
-                <span>
-                    <img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313158.logo.png" alt="">
-                    <p>KUWATI</p>
-                </span>
-                <h1>Vs</h1>
-                <span>
-                    <img src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313158.logo.png" alt="">
-                    <p>KUWATI</p>
-                </span>
-            </div>
-            <div>
-                <span>Schedule</span>
-                <span>Table</span>
-            </div>
-        </div> -->
-    </section>
+    <section id="popup"> </section>
 
     <!--=== footer ===-->
 	<footer>
@@ -95,6 +75,12 @@
     // footer 
         let foot=document.querySelector("footer");
         foot.innerHTML=footer();
+    
+        let bell=document.getElementById("bell")
+        bell.addEventListener('click',function(){
+            alert("Notification Enable Successful")
+                bell.style.color="yellow";
+        })
 </script>
 <script src="scripts/index.js"></script>
 </body>
