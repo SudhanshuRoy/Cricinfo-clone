@@ -205,3 +205,46 @@ function recent(){
 
     change.append(div2)
 }
+
+
+let scroll = document.querySelector("#scroll01");
+
+let scrolldata = [
+    {
+        img : "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/294000/294030.jpg" ,
+        title : "On This Day: Stokes' Headingley epic"
+    } ,
+    {
+        img : "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/344600/344603.png" ,
+        title : "Quote Unquote: who's saying what?"
+    } ,
+    {
+        img : "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/342200/342284.6.jpg" ,
+        title : "Photo feature: helmets"
+    } ,
+    {
+        img : "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/344500/344554.6.jpg" ,
+        title : "The latest cricket photos"
+    } ,
+    {
+        img : "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/151100/151163.3.jpg" ,
+        title : "The 'real value' of wickets: can anyone match McGrath?"
+    }
+]
+
+scrolldata.forEach(function(elem){
+
+    let div = document.createElement("div");
+    div.setAttribute("class" , "scrollclass");
+
+    let img = document.createElement("img");
+    img.src = elem["img"]
+
+    let title = document.createElement("p");
+    title.innerText = elem["title"]
+
+    div.append(img , title)
+
+    scroll.append(div)
+})
+
