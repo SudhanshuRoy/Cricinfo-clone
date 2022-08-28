@@ -1,3 +1,4 @@
+// news .js file
 console.log("hello world!");
 
 let newsarr=[

@@ -1,3 +1,4 @@
+// features.js file
 let featurearr=[
     {
         image:"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_640,q_50/lsci/db/PICTURES/CMS/280400/280493.6.jpg",
