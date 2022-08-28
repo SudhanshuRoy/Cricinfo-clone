@@ -292,7 +292,7 @@ let fgalleryfn = (data) => {
 featureappendfn(featurearr,"Features","Most Read");
 
 
-  
+    
 
 
 // ######################  user manual #####################

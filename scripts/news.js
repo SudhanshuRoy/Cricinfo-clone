@@ -148,7 +148,7 @@ let newsappendfn = () => {
         // div.setAttribute('class',"newsbox2");
         div.style.width="268px";
         div.style.height='auto';
-        div.style.padding="8px 16px";
+        div.style.padding="8px 16px";  
 
         subdiv.append(title,author);
         div.append(image,subdiv);
