@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="styles/liveScore.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--=== navbar ===-->
+    <navbar>
+    </navbar>
+    <div id="my_nav">
+        <h1><a href="liveScore.html" class="upcomming">Current</a> 
+            <h1><a href="upcomming.html" class="upcomming">Upcomming</a></h1>
+        <h1>Result</h1>
+        </h1>  
+    </div>
+    <div class="main">
+        <div class="parent">
+            <div class="header">
+                <h2>Result</h2>
+                <h3 id="see_all">See all</h3>
+            </div>
+            <div class="container">
+                <div class="container1"></div>
+                <div class="container2"></div>
+            </div> 
+        </div>
+        <div id="news"></div>  
+    </div>
+    <!--=== footer ===-->
+    <div>
+        <footer id="foot">   
+        </footer>
+    </div> 
+</body>
+</html>
+<script src="scripts/liveScore.js"></script>
+
+<script type="module">
+    import {navbar,footer} from "./scripts/top-bottom.js";
+        let nav=document.querySelector("navbar");
+        nav.innerHTML=navbar();
+
+  
+        let foot=document.querySelector("footer");
+        foot.innerHTML=footer();
+</script>
+
+
