@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>  
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+        #featuretop{
+            display: flex;
+            margin: auto;
+            width:70%;
+            margin-top: 30px;
+        }
+        #featureDiv{
+            /* border: 2px solid blue; */
+            margin-top: 2px;
+            display: grid;
+            justify-content: center;
+            margin: auto;
+            color: #2b2c2d;
+            padding-left: 16px;
+        }
+        .feature{
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+            margin: auto;
+            margin-top: 25px;
+            border-radius: 10px;
+            background-color: white;
+        }
+        .feature > div{
+            display: flex;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+        }
+        .feature > div > div{
+            width: 100%;
+        }
+        #featureDiv1 > div{
+            display: grid;
+            grid-template-columns: 30% 70%;
+            gap: 20px;
+            padding: 16px;
+        }
+        #featureDiv2 > div{
+            display: grid;
+            grid-template-columns: 30% 70%;
+            align-items: center;
+            gap: 10px;
+        }
+        #featureDiv img:hover{
+            transform: scale(1.06); 
+        }
+        #featureDiv1 img{
+            width: 100%;
+            height: 160px;
+            border-radius: 16px;
+        }
+
+        #featureDiv2 > div > div{
+            font-size: 12px;
+        }
+        
+        #feabtn button{
+            margin-top: 30px;
+            background-color: white;
+            padding: 10px;
+            border: 1px solid rgb(75, 65, 65);
+            border-radius: 10px;
+            font-size: 15px;
+        }
+        #feabtn{
+            padding-left: 9%;
+        }
+
+        @media all  and (min-width:250px) and (max-width:1000px){
+            #featureDiv{
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+            #featureDiv2 > div{
+                grid-template-columns: 66px 1fr;
+                gap:16px;
+                font-size: 18px;
+            }
+            #featureDiv2 > div > div{
+            font-size: 16px;
+        }
+        }
+    </style>
+</head>   
+<body>
+    <img id="featuretop" src="https://tpc.googlesyndication.com/simgad/16233217720762028300?" alt="banner">
+    <div id="feabtn">
+        <button id="feabtn1">Features Home</button>
+        <button id="feabtn2">Photo galleries</button>
+    </div>
+    <div id="featureDiv">
+        
+    </div>
+</body>
+</html>
+<script src='scripts/features.js'></script>
+
+<!-- hover -->
