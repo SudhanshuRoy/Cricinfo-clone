@@ -1,16 +1,16 @@
 data= [
     {
       id: "b9c3da95-ac06-4b55-8fdc-4a87a75be560",
-      dateTimeGMT: "2022-08-30T23:40:00",
+      dateTimeGMT: "TodayT23:40:00",
       name:"Bengaluru Blasters vs Gulbarga Mystics",
       venue:"M.Chinnaswamy Stadium, Bengaluru",
       matchType: "odi",
-      status: "AUS won by 32 runs",
+      status: "Result not declare",
       ms: "fixture",
       t1: "Australia[AUS]",
       t2: "Zimbabwe[ZIM]",
       t1s: "200/9",
-      t2s: "168/4",
+      t2s: "68/4",
       t1img: "https://g.cricapi.com/img/teams/6-637877070670541994.webp",
       t2img: "https://g.cricapi.com/img/teams/575-637877079629985215.webp"
     },
@@ -20,11 +20,11 @@ data= [
       matchType: "t20",
       name:"Bengaluru Blasters vs Gulbarga Mystics",
       venue:"M.Chinnaswamy Stadium, Bengaluru",
-      status: "BRM won by 66 runs",
+      status: "Result not declare",
       ms: "fixture",
       t1: "Birmingham[BRM]",
       t2: "London[LDN]",
-      t1s: "178/9",
+      t1s: "78/3",
       t2s: "112/7",
       t1img: "https://g.cricapi.com/img/teams/126-637885741951450455.webp",
       t2img: "https://g.cricapi.com/img/teams/213-637885742154787685.webp"
