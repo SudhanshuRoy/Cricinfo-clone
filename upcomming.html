@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>liveScore</title>
+    <title>Upcomming event</title>
+
     <link rel="stylesheet" href="styles/liveScore.css">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,7 +15,7 @@
     <navbar>
     </navbar>
     <div id="my_nav">
-        <h1>Current 
+        <h1><a href="liveScore.html" class="upcomming">Current </a>
             <h1>Upcomming</h1>
         <h1>Result</h1>
         </h1>  
@@ -22,7 +23,7 @@
     <div class="main">
         <div class="parent">
             <div class="header">
-                <h2>current event</h2>
+                <h2>Upcomming event</h2>
                 <h3 id="see_all">See all</h3>
             </div>
             <div class="container">
@@ -40,4 +41,8 @@
     import {navbar,footer} from "./scripts/top-bottom.js";
         let nav=document.querySelector("navbar");
         nav.innerHTML=navbar();
+
+        import {newsData,appendnews} from './scripts/exportNews.js';
+        // console.log(newsData,appendnews);
+        appendnews(newsData);
 </script>

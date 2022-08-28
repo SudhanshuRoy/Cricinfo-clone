@@ -99,7 +99,10 @@ width: 50%;
     display: flex;
     justify-content: space-between;    
 }
-
+#my_nav h1:hover{
+    font-size: 35px;
+    
+}
 #foot{
     width: 90%;
     margin-top: 30px;
@@ -151,13 +154,19 @@ border-radius: 10px;
     color: rgb(58, 58, 157);
 }
 #see_all:hover{
-    color: blue;
-    font-size: 25px;
+    
+    font-size: 30px;
 }
 #container_detail{
     width:10%;
     margin: auto;
     
+}
+
+.upcomming{
+    text-decoration: none;
+    color: #000;
+   
 }
 
 

@@ -15,7 +15,7 @@
     </navbar>
     <div id="my_nav">
         <h1>Current 
-            <h1>Upcomming</h1>
+            <h1 ><a href="upcomming.html" class="upcomming">Upcomming</a></h1>
         <h1>Result</h1>
         </h1>  
     </div>
@@ -49,6 +49,9 @@
   
         let foot=document.querySelector("footer");
         foot.innerHTML=footer();
+
+        import {newsData,appendnews} from './scripts/exportNews.js';
+        appendnews(newsData);
 </script>
 
 
