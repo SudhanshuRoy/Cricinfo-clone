@@ -240,7 +240,7 @@ let newsappendfn = (data,a,b) => {
 
         let div=document.createElement("div");
         div.style.height='auto';
-        div.style.padding="8px 16px";
+        div.style.padding="8px 16px";  
 
         subdiv.append(title,author);
         div.append(image,subdiv);
@@ -250,8 +250,6 @@ let newsappendfn = (data,a,b) => {
 
 }
 newsappendfn(newsarr,"Latest News","Most Read");
-
-
 
 // ######################  user manual #####################
 
@@ -264,3 +262,13 @@ newsappendfn(newsarr,"Latest News","Most Read");
 // news ==> Technology in cricket
 // call this function:-
 // newsappendfn(newstecharr,"Technology in cricket","Most Read");
+
+let newsbtn1=document.getElementById("feabtn1");
+newsbtn1.addEventListener('click',function(){
+    newsappendfn(newsarr,"Latest News","Most Read");
+});
+
+let newsbtn2=document.getElementById("feabtn2");
+newsbtn2.addEventListener('click',function(){
+    newsappendfn(newstecharr,"Technology in cricket","Most Read");
+});

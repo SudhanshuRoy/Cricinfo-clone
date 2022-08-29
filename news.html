@@ -4,9 +4,13 @@
 <head>
     <title>Document</title>
     <style>
+        body{
+            background-color: whitesmoke;
+        }
         #newstop{
             display: flex;
             margin: auto;
+            margin-top: 30px;  
             width:70%;
             margin-top: 30px;
         }
@@ -29,7 +33,8 @@
             margin: auto;
             margin-top: 50px;
             border-radius: 10px;
-        }
+            background-color: white;
+        } 
         .feature > div{
             display: flex;
             box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
@@ -66,6 +71,17 @@
             font-size: 12px;
         }
         
+        #feabtn button{
+            margin-top: 30px;
+            background-color: white;
+            padding: 10px;
+            border: 1px solid rgb(75, 65, 65);
+            border-radius: 10px;
+            font-size: 15px;
+        }
+        #feabtn{
+            padding-left: 9%;
+        }
 
         @media all  and (min-width:250px) and (max-width:1000px){
             #newsDiv{
@@ -88,7 +104,13 @@
       <!--=== navbar ===-->
       <navbar>
     </navbar>
+
     <img id="newstop" src="https://tpc.googlesyndication.com/simgad/10926761020657163993?" alt="banner">
+
+    <div id="feabtn">
+        <button id="feabtn1">News Home</button>
+        <button id="feabtn2">Technology in cricket</button>
+    </div>
     <div id="newsDiv">
     <div id="newsDiv1" class="news">
             <!-- <h1 style="padding-left: 16px;" id="newshead1"></h1> -->
