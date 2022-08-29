@@ -279,6 +279,8 @@ let fgalleryfn = (data) => {
 
         let div=document.createElement("div");
         div.style.padding="15px";
+        div.style.backgroundColor="white";
+        div.style.marginTop="20px";
 
         div.append(image,title,date);
         image.style.width="100%";
@@ -288,7 +290,6 @@ let fgalleryfn = (data) => {
 
 // fgalleryfn(fgallery);
 featureappendfn(featurearr,"Features","Most Read");
-
 
 
 
@@ -305,6 +306,17 @@ featureappendfn(featurearr,"Features","Most Read");
 // features ==> photo galleries
 // call this function:-
 // fgalleryfn(fgallery);
+
+let newsbtn1=document.getElementById("feabtn1");
+newsbtn1.addEventListener('click',function(){
+    featureappendfn(featurearr,"Features","Most Read");
+});
+
+let newsbtn2=document.getElementById("feabtn2");
+newsbtn2.addEventListener('click',function(){
+    fgalleryfn(fgallery);
+});
+
 
 
 

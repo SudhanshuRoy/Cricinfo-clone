@@ -1,8 +1,12 @@
-<!DOCTYPE html>
+
+<!DOCTYPE html>  
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>Document</title>  
     <style>
+        body{
+            background-color: whitesmoke;
+        }
         #featuretop{
             display: flex;
             margin: auto;
@@ -10,6 +14,8 @@
             margin-top: 30px;
         }
         #featureDiv{
+            /* border: 2px solid blue; */
+            margin-top: 2px;
             margin-top: 50px;
             display: grid;
             justify-content: center;
@@ -20,6 +26,9 @@
         .feature{
             box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
             margin: auto;
+            margin-top: 25px;
+            border-radius: 10px;
+            background-color: white;
             margin-top: 50px;
             border-radius: 10px;
         }
@@ -55,7 +64,17 @@
         #featureDiv2 > div > div{
             font-size: 12px;
         }
-        
+        #feabtn button{
+            margin-top: 30px;
+            background-color: white;
+            padding: 10px;
+            border: 1px solid rgb(75, 65, 65);
+            border-radius: 10px;
+            font-size: 15px;
+        }
+        #feabtn{
+            padding-left: 9%;
+        }
 
         @media all  and (min-width:250px) and (max-width:1000px){
             #featureDiv{
@@ -72,19 +91,22 @@
         }
         }
     </style>
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>   
 <body>
-       <!--=== navbar ===-->
-       <navbar>
+    <!--=== navbar ===-->
+    <navbar>
     </navbar>
-
-    <img id="featuretop" src="https://tpc.googlesyndication.com/simgad/16233217720762028300?" alt="banner">
-    <div id="featureDiv">
-        
-    </div>
     
+    <img id="featuretop" src="https://tpc.googlesyndication.com/simgad/16233217720762028300?" alt="banner">
+    <div id="feabtn">
+        <button id="feabtn1">Features Home</button>
+        <button id="feabtn2">Photo galleries</button>
+    </div>
+    <div id="featureDiv">  
+    </div>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!--=== footer ===-->
 	<footer>
 	</footer>
