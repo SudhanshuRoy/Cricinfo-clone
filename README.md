@@ -21,3 +21,15 @@ This project is clone of cricinfo.com website. You can visit this website for an
 >>Technology Used:
 
 HTML,CSS,JavaScript,ES6
+
+>> Home Page
+![image](https://user-images.githubusercontent.com/96005514/214488110-5a32773c-2e0a-480f-bac4-7e7fc59686e6.png)
+
+>> Live Score Page
+![image](https://user-images.githubusercontent.com/96005514/214488176-af144a0f-dc1e-468f-9dbd-f8103e8f4752.png)
+
+>>News Page
+![image](https://user-images.githubusercontent.com/96005514/214488289-083d76f3-4887-459d-87ab-92c95d55ff90.png)
+
+>> Series Page
+![image](https://user-images.githubusercontent.com/96005514/214488361-ea50d428-5771-4c04-94c0-027757b7758f.png)
